@@ -1,0 +1,48 @@
+@media only screen and (max-width: 1270px) {
+    
+    header, .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+@media only screen and (max-width:980px) {
+    
+    .header__block {
+
+        &__left, 
+        &__right {
+            gap: 24px;
+        }
+
+        &__nav {
+            font-size: 16px;
+        }
+    }
+
+    .hero__block {
+        text-align: center;
+
+        &__title {
+            font-size: 58px;
+        }
+
+        &__text {
+            font-size: 16px;
+
+            &_2 {
+                padding-bottom: 36px;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width:750px) {
+
+    .mb, .header__block__left {
+        display: none;
+    }
+    
+}
